@@ -210,7 +210,7 @@ func Analizador(contenido []byte) (string, [][]string) {
 		}
 	}
 
-	data := [][]string{[]string{"entero", "Palabra Reservada", strconv.Itoa(enteroPR)},
+	data := [][]string{{"entero", "Palabra Reservada", strconv.Itoa(enteroPR)},
 		{"decimal", "Palabra Reservada", strconv.Itoa(decimalPR)},
 		{"booleano", "Palabra Reservada", strconv.Itoa(booleanoPR)},
 		{"cadena", "Palabra Reservada", strconv.Itoa(cadenaPR)},
